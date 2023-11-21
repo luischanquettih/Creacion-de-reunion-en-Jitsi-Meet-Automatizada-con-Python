@@ -23,7 +23,7 @@ start_permitir()
 
 
 time.sleep(3)
-name_user = driver.find_element(by="xpath", value="//*[@id='videoconference_page']/div[4]/div[1]/div/div/div[1]/div[1]/div/input")
+name_user = driver.find_element(by="xpath", value='//*[@id="premeeting-name-input"]')
 name_user.send_keys("Creador de la Reunión")
 name_user.send_keys(Keys.ENTER)
 
